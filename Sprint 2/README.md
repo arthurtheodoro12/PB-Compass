@@ -1,4 +1,4 @@
-<h1 align="center">README Sprint 1</h1>
+<h1 align="center">README Sprint 2</h1>
 
 # Instruções
 

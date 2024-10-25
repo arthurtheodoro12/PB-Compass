@@ -1,35 +1,67 @@
+<div align="center">
+  <img style="width: 450px; height: 450px; border-radius: 50%; overflow: hidden;" src="Assets/imagem-principal.jpeg"/>
+</div>
 
-# Instruções
+###
 
-Neste arquivo você fará a sua apresentação, assim como a organização geral das suas entregas ao longo das Sprints. Esperamos que haja, minimamente:
+<div align="center">
+  <a href="https://www.linkedin.com/in/arthur-theodoro-3bb149275/"><img src="Assets/1656997167linkedin-logo-white.png" height="25" alt="linkedin logo"  /></a>
+</div>
+
+###
+
+<h1 align="center">Olá, sou o Arthur Theodoro 👋</h1>
+
+###
+
+### **👩‍💻 Apresentação**
+
+###
+📍Resido em **Sorcaba, São Paulo**
+
+###
+📚 Curso **Análise e Desenvolvimento de Sistemas** na **FATEC-Sorocaba**
+- Estou no **3º Semestre**, estudando no **período noturno**
  
-- Uma seção de apresentação, com foto, informações como cidade de residência, instituição de ensino, curso e semestre atual, experiências na área de tecnologia (se houver), hobbies e outras informações que você julgar importante para os monitores.
+###
+💡 Possuo **Conhecimentos** nas seguintes tecnologias:
+- HTML, CSS, JavaScript, GIT e Linux
 
-- De forma opcional, adicione uma foto ao seu perfil do **GitHub**, pois utilizamos tal informação para facilitar a sua identificação ao longo do processo. Lembre-se que a informação é pública, tal qual você pode testar no exemplo do repositório da [
-The Apache Software Foundation](https://github.com/apache.png?size=250).
+###
+💼 A minha **Experiência** na área da tecnologia é:
+- **Desenvolvedor de Software Freelancer – MouraSystem (04/2024 – 10/2024)** 
+    - Desenvolvimento de uma plataforma de gestão integrada para clínicas veterinárias utilizando Bubble.io.
+        - Responsabilidade e Tarefas:
+            - Colaboração direta com stakeholders para identificar necessidades e traduzir requisitos de negócios em funcionalidades técnicas.
+            - Realização atualizações no sistema com base no feedback dos usuários e nas mudanças de requisitos.
+            - Proposição e implementação de ideias inovadoras para otimizar a performance e a usabilidade da plataforma.
+            - Desenvolvimento e execução de testes unitários rigorosos para assegurar a qualidade, a funcionalidade e a confiabilidade do software.
+###
 
-
-Veja um modelo de estrutura básica a seguir:
-
-___
-
-## Apresentação
-
-Olá, sou ...
-
-## Sprints 
-
-1. [Sprint 1](Sprint%201/README.md)
-2. [Sprint 2](Sprint%202/README.md)
-3. [Sprint 3](Sprint%203/README.md)
-4. ...
-
-___
+🥊 Tenho uma paixão por artes marciais; já pratiquei Muay Thai e Kickboxing, e pretendo começar a treinar Jiu-Jitsu em breve.
 
 
-# Dicas
+### **🔥 Sprints**
 
-- [Mark Down - Basic Syntax](https://www.markdownguide.org/basic-syntax/)
-- [Github - Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+###
+- [Sprint 1](./Sprint%201/README.md) [■■■■■■■■■■]100%
+###
+- [Sprint 2](./Sprint%202/README.md) [■□□□□□□□□□]10%
+###
+- [Sprint 3](./Sprint%203/README.md) <img height="18" width="18" src="./Assets/carregando.png">
+###
+- [Sprint 4](./Sprint%204/README.md) <img height="18" width="18" src="./Assets/carregando.png">
+###
+- [Sprint 5](./Sprint%205/README.md) <img height="18" width="18" src="./Assets/carregando.png">
+###
+- [Sprint 6](./Sprint%206/README.md) <img height="18" width="18" src="./Assets/carregando.png">
+###
+- [Sprint 7](./Sprint%207/README.md) <img height="18" width="18" src="./Assets/carregando.png">
+###
+- [Sprint 8](./Sprint%208/README.md) <img height="18" width="18" src="./Assets/carregando.png">
+###
+- [Sprint 9](./Sprint%209/README.md) <img height="18" width="18" src="./Assets/carregando.png">
+###
+- [Sprint 10](./Sprint%2010/README.md) <img height="18" width="18" src="./Assets/carregando.png">
 
-- teste ;)
+
