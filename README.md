@@ -1,5 +1,5 @@
 <div align="center">
-  <img style="border-radius: 50%; width: 450px; height: 450px; overflow: hidden;" src="Assets/imagem-principal.jpeg"/>
+  <img style="border-radius: 50%; width: 450px; height: 450px;" src="Assets/imagem-principal.jpeg"/>
 </div>
 
 ###
