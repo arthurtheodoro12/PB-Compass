@@ -18,7 +18,7 @@ Compreendi o funcionamento do terminal Linux e agora consigo navegar pelos diret
 # Evidências
 
 
-Todas as evidências estão diretamente correlacionadas com a resolução do desafio e foram utilizadas no [README do desafio](/Sprint%201/Desafio/README.md) para ilustrar, através de imagens, os passos necessários que foram seguidos. Isso inclui cada etapa do processo, desde a identificação do problema até a implementação da solução,
+Todas as evidências estão diretamente correlacionadas com a resolução do desafio e foram utilizadas no [README do desafio](/Sprint%201/Desafio/README.md) para ilustrar, através de imagens, os passos necessários que foram seguidos. Isso inclui cada etapa do processo, desde a identificação do problema até a implementação da solução.
 
 
 
