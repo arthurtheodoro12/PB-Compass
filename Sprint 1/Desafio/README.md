@@ -38,6 +38,12 @@ caminhoPastaVendas=/home/arthur/ecommerce/vendas
 ````
 ### 📂  Criação da Estrutura de Diretórios
 O script é executado durante quatro dias consecutivos, mas a estrutura de diretórios precisa ser criada apenas uma vez. Para garantir isso, foi utilizado um bloco condicional if-else: se a estrutura ainda não foi gerada, o script executa o bloco if; 
+
+#### Erro caso não utilize o condicional if-else
+
+![imagem do erro sem if-else](/Sprint%201/Evidencias/ErroCriacaoDiretorios.jpeg)
+
+#### Correção, implementando o conficional if-else no código
 ```
 if [ ! -d "/home/arthur/ecommerce/vendas" ];then
 	#criação de diretórios/subdiretórios e renomeação dos arquivos
