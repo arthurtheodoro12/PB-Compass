@@ -1,0 +1,19 @@
+Data do sistema operacional:
+2024/10/25 15:27
+Data do primeiro registro de venda: 
+01/04/2023
+Data do último registro de venda: 
+31/04/2023
+Quantidade total de itens diferentes vendidos:
+66
+10 primeiras linhas do arquivo backup-dados
+1,camiseta,2,29.90,01/04/2023
+2,camisa preta,5,80.00,02/04/2023
+3,camisa azul,3,100.00,03/04/2023
+4,camisa vermelha,1,200.00,00,04/04/2023
+5,copo,8,15.00,05/04/2023
+6,copo de plástico,7,40.00,06/04/2023
+7,copo de vidro,6,50.00,07/04/2023
+8,notebook Dell,4,120.00,08/04/2023
+9,notebook Samsung,12,10.00,09/04/2023
+10,notebook AOC,2,150.00,10/04/2023

@@ -1,0 +1,19 @@
+Data do sistema operacional:
+2024/10/24 15:27
+Data do primeiro registro de venda: 
+01/03/2023
+Data do último registro de venda: 
+31/03/2023
+Quantidade total de itens diferentes vendidos:
+65
+10 primeiras linhas do arquivo backup-dados
+1,camiseta,2,29.90,01/03/2023
+2,escova de dentes,5,80.00,02/03/2023
+3,escova de dentes,3,100.00,03/03/2023
+4,suporte de monitor,1,200.00,00/03/2023
+5,copo,8,15.00,05/03/2023
+6,notebook,7,40.00,06/03/2023
+7,bermuda,6,50.00,07/03/2023
+8,gabinete de computador,4,120.00,08/03/2023
+9,bone,12,10.00,09/03/2023
+10,playstation 2,2,150.00,10/03/2023
