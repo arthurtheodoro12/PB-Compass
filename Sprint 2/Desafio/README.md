@@ -10,7 +10,7 @@ O objetivo é transformar um banco de dados inicial, composto por uma única tab
 ## Fase 1️⃣: Normalização do Banco de Dados
 
 ### Primeira fase normal (1FN)
-- O objetivo da primeira fase normal é transformar todos os atributos da tabela em atributos atômicos, indivisíveis, e indentificar possíveis inconsistências nos dados afim de corrigi-los
+- A  primeira fase normal visa transformar todos os atributos da tabela em atributos atômicos, indivisíveis, e indentificar possíveis inconsistências nos dados, afim de corrigi-los.
 ###
 #### 1º Passo:
 
@@ -47,4 +47,4 @@ O objetivo é transformar um banco de dados inicial, composto por uma única tab
     - ``tb_locacoes``
         - a qual armazena todos os dados referente as locações feitas, se relaciona com as tabelas clientes, carros e vendedores.
 
-- Query que criou todas as tabelas:
+- O código da criação das tabelas é o seguinte: [Criação das Tabelas](../Desafio/etapa-1/criacaoTabelas.sql)

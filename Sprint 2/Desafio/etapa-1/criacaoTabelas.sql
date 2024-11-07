@@ -23,7 +23,7 @@ CREATE TABLE tb_carros (
 	chassiCarro VARCHAR(255),
 	marcaCarro VARCHAR(255),
 	modeloCarro VARCHAR(255),
-	anoCarro INT
+	anoCarro INT,
 	FOREIGN KEY (idCombustivel) REFERENCES tb_combustivel(idCombustivel)
 );
 
@@ -47,10 +47,10 @@ CREATE TABLE tb_locacao_novo (
 	idCliente INT,
 	idCarro INT,
 	idVendedor INT,
+	idCombustivel INT,
 	FOREIGN KEY (idCliente) REFERENCES tb_clientes(idCliente),
 	FOREIGN KEY (idCarro) REFERENCES tb_carros(idCarro),
-	FOREIGN KEY (idVendedor) REFERENCES tb_vendedores(idVendedor)
+	FOREIGN KEY (idVendedor) REFERENCES tb_vendedores(idVendedor),
+	FOREIGN KEY (idCombustivel) REFERENCES tb_combustivel(idCombustivel)
 );
-
-
 
