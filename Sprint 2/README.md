@@ -59,7 +59,7 @@ Tive meu primeiro contato com a plataforma "AWS Skill Builder" e aprofundei meu 
 17. [Exportação de Dados Etapa01 .SQL](./Exercicios/Exportacao-de-Dados/Etapa01.sql)
 - 17.1 [Exportação de Dados Etapa01 .CSV](./Exercicios/Exportacao-de-Dados/Etapa01.csv)
 
-18 [Exportação de Dados Etapa02 .SQL](./Exercicios/Exportacao-de-Dados/Etapa02.csv)
+18 [Exportação de Dados Etapa02 .SQL](./Exercicios/Exportacao-de-Dados/Etapa02.sql)
 - 18.1 [Exportação de Dados Etapa02 .CSV](./Exercicios/Exportacao-de-Dados/Etapa02.csv)
 
 ###
