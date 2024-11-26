@@ -45,6 +45,7 @@ Aprendi os conceitos fundamentais de economia na nuvem. Aprendi a identificar op
 23. [Resposta Exercício 23.](./Exercicios/Exercicio23.py)
 24. [Resposta Exercício 24.](./Exercicios/Exercicio24.py)
 25. [Resposta Exercício 25.](./Exercicios/Exercicio25.py)
+26. [Respostas Exercício de ETL](./Exercicios/ETL)
 
 
 

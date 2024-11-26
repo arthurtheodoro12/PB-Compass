@@ -1,0 +1,2 @@
+O ator/atriz com a maior média de receita de bilheteria bruta por filme é: Anthony Daniels
+A média de receita de bilheteria bruta por filme desse ator/atriz é: 451.80
