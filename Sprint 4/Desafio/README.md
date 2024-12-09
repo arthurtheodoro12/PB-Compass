@@ -58,9 +58,9 @@
 - É possível reutilizar containers?
     - Sim, é possível reutilizar containers no Docker. Quando um container é criado e executado, ele fica no estado parado após a sua execução, mas ainda fica disponível para ser reiniciado. Inclusive, todas as configurações e alterações feitas dentro do container durante sua execução são mantidas.
 
-    - Evidência da reutilização de um container:
-        - Containers anteriormente criados:
-            - ![Imagem containers anteriormente criados](../Evidencias/ContainersCriados.png)
-            - Reutilizando o container cujo nome é "friendly_carson"
-                - ![Imagem de Reinicialização do container](../Evidencias/ReiniciandoContainer.png)
-                - o comando ``docker start`` é o responsável por reiniciar um container parado. A flag -i é a responsável por deixar o container iterativo, que nesse caso, permite que a saída seja a mesma do arquivo "carguru.py", executado pela imagem do container.
+- Evidência da reutilização de um container:
+    - Containers anteriormente criados:
+        - ![Imagem containers anteriormente criados](../Evidencias/ContainersCriados.png)
+        - Reutilizando o container cujo nome é "friendly_carson"
+            - ![Imagem de Reinicialização do container](../Evidencias/ReiniciandoContainer.png)
+            - Na imagem acima, podemos ver inicialmente todas as saidas do container "friendly_carson", exibidas utilizando o ``docker logs``. Após a execução do comando ``docker start``, que é responsável por iniciar um container parado, podemos perceber, com um novo uso do ``docker logs``, que uma nova saída foi adicionada ao log, ou seja, o container foi reutilizado com sucesso.
