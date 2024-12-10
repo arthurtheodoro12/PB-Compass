@@ -50,9 +50,9 @@
 ###
 - [Sprint 3](./Sprint%203/README.md) [■■■■■■■■■■]100%
 ###
-- [Sprint 4](./Sprint%204/README.md) [■□□□□□□□□□]10%
+- [Sprint 4](./Sprint%204/README.md) [■■■■■■■■■■]100%
 ###
-- [Sprint 5](./Sprint%205/README.md) <img height="18" width="18" src="./Assets/carregando.png">
+- [Sprint 5](./Sprint%205/README.md) [■□□□□□□□□□]10%
 ###
 - [Sprint 6](./Sprint%206/README.md) <img height="18" width="18" src="./Assets/carregando.png">
 ###
