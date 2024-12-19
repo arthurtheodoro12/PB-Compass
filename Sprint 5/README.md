@@ -37,8 +37,6 @@ Ao executar o código do exercício ... observei que ... conforme podemos ver na
 # Certificados
 
 
-Certificado do Curso ABC
-
-![Curso ABC](certificados/sample.png)
+[AWS Cloud Quest: Cloud Practitioner](https://www.credly.com/badges/13fece18-9c7c-4173-a111-9a1e7577b5b5/public_url)
 
 
