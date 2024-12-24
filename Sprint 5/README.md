@@ -10,33 +10,41 @@ Este arquivo será o relato da sua entrega. Neste arquivo você fará a organiza
 
 # Resumo
 
-**Git Hub:** Aprendi isso, isso e mais aquilo.
+### AWS:
+A experiência com o Cloud Quest me permitiu explorar os principais serviços da AWS, como o EC2 e o S3, que são essenciais para o dia a dia de um engenheiro de software. Além disso, aprendi a hospedar um site estático no S3, criar e excluir buckets, além de utilizá-los para o armazenamento de arquivos.
 
-**Linux:** Pude entender como funciona isso e aquilo.
+### Python 
+Continuei meu aprendizado em Python e Pandas, revisando a manipulação e tratamento de DataFrames e aprofundando meu conhecimento na biblioteca. Aprendi novas funções e funcionalidades, o que foi extremamente enriquecedor. Transformar um conjunto de dados bruto em um formato otimizado para análise de dados e ser capaz de manipular dados para responder a perguntas foi uma experiência valiosa.
 
 # Exercícios
 
 
-1. ...
-[Resposta Ex1.](exercicios/ex1.txt)
+### Evidência de Execução do Exercício 1
+- Criação do Bucket:
+    - ![bucket Criado](./Exercicios/Evidencias-Exercicio/1BucketCriado.png)
+
+- Hospegadem do Site Estático:
+    - ![hospedagem do Site Estático](./Exercicios/Evidencias-Exercicio/2HospedagemSiteEstatico.png)
+
+- Upload Correto dos Arquivos para o Bucket:
+    - ![Arquivos Upados](./Exercicios/Evidencias-Exercicio/3ArquiviosUpados.png)
 
 
-2. ...
-[Resposta Ex2.](exercicios/ex2.txt)
-
-
+- Site Estático rodando: 
+    - ![Site rodando](./Exercicios/Evidencias-Exercicio/4SiteRodando.png)
 
 # Evidências
 
 
-Ao executar o código do exercício ... observei que ... conforme podemos ver na imagem a seguir:
+Todas as evidências estão diretamente correlacionadas com a resolução do desafio e foram utilizadas no [README do desafio](./Desafio/README.md) para ilustrar, através de imagens, os passos necessários que foram seguidos. Isso inclui cada etapa do processo, desde a identificação do problema até a implementação da solução.
 
-![Evidencia 1](evidencias/sample.webp)
 
 
 # Certificados
 
 
-[AWS Cloud Quest: Cloud Practitioner](https://www.credly.com/badges/13fece18-9c7c-4173-a111-9a1e7577b5b5/public_url)
+- [AWS Cloud Quest: Cloud Practitioner](https://www.credly.com/badges/13fece18-9c7c-4173-a111-9a1e7577b5b5/public_url)
 
+- Certificado curso padrão de preparação para o exame: AWS Certified Cloud Practitioner 
+    - ![Cerficicado curso de preparação para o exame](./Certificados/Certificado-Preparacao-Exame.png)
 
