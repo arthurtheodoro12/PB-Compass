@@ -25,7 +25,7 @@
  
 ###
 💡 Possuo **Conhecimentos** nas seguintes tecnologias:
-- HTML, CSS, JavaScript, Python, SQL, AWS, GIT e Linux
+- HTML, CSS, JavaScript, Python, Pandas, SQL, AWS, S3 GIT e Linux
 
 ###
 💼 A minha **Experiência** na área da tecnologia é:
@@ -52,9 +52,9 @@
 ###
 - [Sprint 4](./Sprint%204/README.md) [■■■■■■■■■■]100%
 ###
-- [Sprint 5](./Sprint%205/README.md) [■□□□□□□□□□]10%
+- [Sprint 5](./Sprint%205/README.md) [■■■■■■■■■■]100%
 ###
-- [Sprint 6](./Sprint%206/README.md) <img height="18" width="18" src="./Assets/carregando.png">
+- [Sprint 6](./Sprint%206/README.md) [■□□□□□□□□□]10%
 ###
 - [Sprint 7](./Sprint%207/README.md) <img height="18" width="18" src="./Assets/carregando.png">
 ###

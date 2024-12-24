@@ -1,2 +1,0 @@
-dados["Atuacao em Territorio de Fronteira"] = dados["Atuacao em Territorio de Fronteira"].astype(str)
-dados["Atuacao em Territorio de Fronteira"] = dados["Atuacao em Territorio de Fronteira"].replace("0", "Nao")
