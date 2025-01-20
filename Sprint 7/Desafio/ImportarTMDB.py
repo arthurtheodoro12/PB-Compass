@@ -3,7 +3,7 @@ import boto3
 import json     
 import datetime as dt 
 
-# Configuracoes iniciais API
+# Configuracão inicial da API
 api_key = 'api-key'
 base_url = 'https://api.themoviedb.org/3/discover/movie'
 
@@ -57,12 +57,10 @@ def buscar_filmes(limit=300):
         data = query.json()
         pagina_atual_filmes = data.get('results', [])
         
-        # Adicione apenas os filmes necessários para atingir o limite
         filmes.extend(pagina_atual_filmes[:limit - len(filmes)])
         
-        # Verifique se atingiu o fim ou atingiu o limite
         if len(pagina_atual_filmes) < 20:
-            break  # Less than the max per page indicates end of data
+            break 
 
         num_pagina += 1
 
@@ -73,11 +71,11 @@ def processar_filmes():
     filmes = buscar_filmes()
     if filmes:
         total_filmes_JSON = 100  # Tamanho de cada arquivo JSON
-        quantidade_arquivos = (len(filmes) + total_filmes_JSON - 1) // total_filmes_JSON  # Quantidade de arquivos a serem gerados
+        quantidade_arquivos = (len(filmes) + total_filmes_JSON - 1) // total_filmes_JSON 
 
         for i in range(quantidade_arquivos):
             filmes_do_arquivo = filmes[i * total_filmes_JSON : (i + 1) * total_filmes_JSON]
-            nome_arquivo = f"filmes_guerra_{i + 1}"  # Nome único para cada arquivo
+            nome_arquivo = f"filmes_guerra_{i + 1}" 
             upload_to_s3(filmes_do_arquivo, bucket_name, nome_arquivo)
     else:
         print("Nenhum filme encontrado ou houve um problema com a API.")
