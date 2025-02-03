@@ -4,7 +4,7 @@ import json
 import datetime as dt 
 
 # Configuracão inicial da API
-api_key = 'api-key'
+api_key = 'acd287c57f9896a6712fbd67c4a1b06e'
 base_url = 'https://api.themoviedb.org/3/discover/movie'
 
 filtros = {
@@ -17,9 +17,9 @@ filtros = {
 }
 
 # Configurações de Acesso AWS
-AWS_ACCESS_KEY_ID="Key1"
-AWS_SECRET_ACCESS_KEY="Key2"
-AWS_SESSION_TOKEN="key3"
+AWS_ACCESS_KEY_ID="ASIAZDZTCAPMEFDJ6QKB"
+AWS_SECRET_ACCESS_KEY="rJeuAJDb5p2RxH6VQeeb49DoqCYKzXBOQiJke0uf"
+AWS_SESSION_TOKEN="IQoJb3JpZ2luX2VjEOz//////////wEaCXVzLWVhc3QtMSJHMEUCIQCkofdzS4dwK2JO3qq3OOmpCKAFUmW0jF5QvvC3c2otFgIgL0xgDjzT1UEHEjm0j9id1g+R786yrY+Qyemg5Y2JisYqrAMI9f//////////ARAAGgw2MjY2MzU0NDExMTIiDM90DvyIsRLV6Wo0xyqAA5IMJQA6FsohfDjwVeQq5YBx/ZTsoU9mb+TEiSLBi4wQtvGyczDH8nPTj6SLxemQUpOMY76i//LfFAY7la+XW4gFBqKsh0qh+hqj6zNAOffaSjPDi0ZESyAU8Ni5xJ0hWiTPWMr6Qs7Rf9/MxfXYm7xVU6Ctqu5ZcF5HK33r3XDtUoWQ8ScUlI/oqfHXupno/ybQJjOxBDTFomAU2woIBD1Iix1BSivWZ/YWII2NNna6JaCTiLsG9mLKrOtbR+tFwp2yrbM167CInVdyf3NuExckg+9S+wKyRqWxnwF6FyMhYNHsgzp8SAnF9OW+L1Zqu91sd5NZereB7p0oZT3jL90QUoo8DlFKUehjaB2X6w+h+l1mUef7BDc7U/gJBcYuRjm/BMhZ0K8Ri3eS2Vvqnr0bgYLLK9C22XXYVeFKXnpiIOeMFQz1hxGCLy3R1DJsC2udX86ERL0PLx4YCdComwUgW0TjmPoiW0nZHS+80+I4O+Eus5D3nZet2wMP9h0l7DD1kv+8BjqmAZOMWH8HN+a9Av8dKzII3OWzEC1A9ps058w2dD7n1Y7Eag3laFJg5wqbeNMJ63NywhJ4XJnLklanSu/WBl/I8/76kg5TNf+GmbDqnu5UeHtWBvCupG4ZEqajWtntSpWRRu0fcOBas9DOy6sEcVxzoi2JsCKdSqiwKX9yC/17Cnl/HZGhibVB2lATw/S09o2oFuVUm3PMXZxxmuJnYIIxaoy9/cpPRRE="
 s3_client = boto3.client(
     's3',
     aws_access_key_id=AWS_ACCESS_KEY_ID,
@@ -48,7 +48,7 @@ def upload_to_s3(dados, nome_do_bucket, nome_arquivo):
 
 
 # Função para buscar os filmes da API
-def buscar_filmes(limit=300):
+def buscar_filmes(limit=5000):
     filmes = []
     num_pagina = 1
     while len(filmes) < limit:
