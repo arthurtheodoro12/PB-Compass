@@ -60,8 +60,8 @@
 ###
 - [Sprint 8](./Sprint%208/README.md) [■■■■■■■■■■]100%
 ###
-- [Sprint 9](./Sprint%209/README.md) [■□□□□□□□□□]10%
+- [Sprint 9](./Sprint%209/README.md) [■■■■■■■■■■]100%
 ###
-- [Sprint 10](./Sprint%2010/README.md) <img height="18" width="18" src="./Assets/carregando.png">
+- [Sprint 10](./Sprint%2010/README.md) [■□□□□□□□□□]10%
 
 
