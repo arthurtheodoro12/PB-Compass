@@ -188,7 +188,7 @@ O objetivo deste desafio é desenvolver a camada Refined do data lake do desafio
 
 ### 3º Passo: Execução do Job Glue
 
-- Após a criação do script e a sua execução, os dados foram persistidos corretamente no S3.
+- Após a criação do Job e da sua execução, os dados foram persistidos corretamente no S3.
 
 - Evidência dos dados no S3
 ![pastas dimensoes no S3](../Evidencias/CriacaoPastarS3.png)
@@ -200,7 +200,7 @@ O objetivo deste desafio é desenvolver a camada Refined do data lake do desafio
 - Evidência da criação da Refined Crawler e sua correta execução
 - ![refined crawler](../Evidencias/CriacaoRefinedCrawler.png)
 
-- Evidências das criação correta das tabelas no Glue Data Catalog
+- Evidências da criação correta das tabelas no Glue Data Catalog
 - ![tabelas 1](../Evidencias/CriacaoTabelas1.png)
 - ![tabelas 2](../Evidencias/CriacaoTabelas2.png)
 - ![tabelas 3](../Evidencias/CriacaoTabelas3.png)
