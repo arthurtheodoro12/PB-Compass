@@ -10,35 +10,18 @@ Este arquivo será o relato da sua entrega. Neste arquivo você fará a organiza
 
 # Resumo
 
-**Git Hub:** Aprendi isso, isso e mais aquilo.
-
-**Linux:** Pude entender como funciona isso e aquilo.
+Nesta sprint, adquiri a habilidade de criar dashboards utilizando o Amazon QuickSight.
 
 # Exercícios
 
-
-1. ...
-[Resposta Ex1.](exercicios/ex1.txt)
-
-
-2. ...
-[Resposta Ex2.](exercicios/ex2.txt)
-
-
+Não há exercícios nessa Sprint.
 
 # Evidências
 
-
-Ao executar o código do exercício ... observei que ... conforme podemos ver na imagem a seguir:
-
-![Evidencia 1](evidencias/sample.webp)
-
+Todas as evidências estão diretamente correlacionadas com a resolução do desafio e foram utilizadas no [README do desafio](./Desafio/README.md) para ilustrar, através de imagens, os passos necessários que foram seguidos. Isso inclui cada etapa do processo, desde a identificação do problema até a implementação da solução.
 
 # Certificados
 
-
-Certificado do Curso ABC
-
-![Curso ABC](certificados/sample.png)
+Não há certificados externos à Udemy nessa sprint.
 
 

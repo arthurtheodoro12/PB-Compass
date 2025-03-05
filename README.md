@@ -25,7 +25,7 @@
  
 ###
 💡 Possuo **Conhecimentos** nas seguintes tecnologias:
-- Python, Pandas, SQL, Spark (PySpark), AWS (S3, Lambda, Glue, IAM), GIT, Linux, HTML, CSS, JavaScript
+- Python, Pandas, SQL, Spark (PySpark), Docker, AWS (S3, Lambda, Glue, Athena, QuickSight, IAM), GIT, Linux, HTML, CSS, JavaScript
 
 ###
 💼 A minha **Experiência** na área da tecnologia é:
@@ -62,6 +62,6 @@
 ###
 - [Sprint 9](./Sprint%209/README.md) [■■■■■■■■■■]100%
 ###
-- [Sprint 10](./Sprint%2010/README.md) [■□□□□□□□□□]10%
+- [Sprint 10](./Sprint%2010/README.md) [■■■■■■■■■■]100%
 
 
