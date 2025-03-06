@@ -1,27 +1,25 @@
-import requests
-import boto3
-import json
-import datetime as dt
+import requests 
+import boto3    
+import json     
+import datetime as dt 
 
-# Configuração inicial da API TMDB
-api_key = 'acd287c57f9896a6712fbd67c4a1b06e'
-base_url_movies = 'https://api.themoviedb.org/3/discover/movie'
-base_url_credits = 'https://api.themoviedb.org/3/movie/{movie_id}/credits'
+# Configuracoes iniciais API
+api_key = 'api-key'
+base_url = 'https://api.themoviedb.org/3/discover/movie'
 
 filtros = {
     'api_key': api_key,
     'language': 'pt-BR',
-    'with_genres': '10752',
+    'with_genres': '10752', 
     'primary_release_date.gte': '1947-01-01',
     'primary_release_date.lte': '2000-12-31',
     'sort_by': 'vote_count.desc'
 }
 
-# Configurações AWS
-AWS_ACCESS_KEY_ID = "ASIAZDZTCAPMEFDJ6QKB"
-AWS_SECRET_ACCESS_KEY = "rJeuAJDb5p2RxH6VQeeb49DoqCYKzXBOQiJke0uf"
-AWS_SESSION_TOKEN = "IQoJb3JpZ2luX2VjEOz//////////wEaCXVzLWVhc3QtMS..."
-
+# Configurações de Acesso AWS
+AWS_ACCESS_KEY_ID="Key1"
+AWS_SECRET_ACCESS_KEY="Key2"
+AWS_SESSION_TOKEN="key3"
 s3_client = boto3.client(
     's3',
     aws_access_key_id=AWS_ACCESS_KEY_ID,
@@ -29,77 +27,60 @@ s3_client = boto3.client(
     aws_session_token=AWS_SESSION_TOKEN
 )
 
-# Definição do nome das pastas no S3
+#Definindo nome das pastas para upar os arquivos e nome do bucket
 hoje = dt.datetime.now().strftime("%Y/%m/%d")
 estrutura_RAW = f"Raw/TMDB/JSON/{hoje}"
 bucket_name = "data-lake-arthur-theodoro"
 
-# Função para upload no S3
+# Função para enviar dados ao S3
 def upload_to_s3(dados, nome_do_bucket, nome_arquivo):
     try:
         dados_json = json.dumps(dados, ensure_ascii=False, indent=4)
         s3_client.put_object(
             Bucket=nome_do_bucket,
             Key=f"{estrutura_RAW}/{nome_arquivo}.json",
-            Body=dados_json
+            Body=dados_json 
         )
     except Exception as error:
         print(f"Erro ao enviar: {error}")
     else:
         print(f"Arquivo '{nome_arquivo}.json' enviado com sucesso!")
 
-# Função para buscar filmes
-def buscar_filmes(limit=5000):
+
+# Função para buscar os filmes da API
+def buscar_filmes(limit=300):
     filmes = []
     num_pagina = 1
     while len(filmes) < limit:
         filtros['page'] = num_pagina
-        query = requests.get(base_url_movies, params=filtros)
+        query = requests.get(base_url, params=filtros)
         data = query.json()
         pagina_atual_filmes = data.get('results', [])
+        
+        # Adicione apenas os filmes necessários para atingir o limite
         filmes.extend(pagina_atual_filmes[:limit - len(filmes)])
+        
+        # Verifique se atingiu o fim ou atingiu o limite
         if len(pagina_atual_filmes) < 20:
-            break
+            break  # Less than the max per page indicates end of data
+
         num_pagina += 1
+
     return filmes
 
-# Função para buscar atores e diretores de um filme
-def buscar_atores_diretores(movie_id):
-    url = base_url_credits.format(movie_id=movie_id)
-    response = requests.get(url, params={'api_key': api_key})
-    data = response.json()
-    
-    atores = [
-        {'id': ator['id'], 'nome': ator['name'], 'personagem': ator.get('character', '')}
-        for ator in data.get('cast', [])
-    ]
-    
-    diretores = [
-        {'id': crew['id'], 'nome': crew['name'], 'departamento': crew['department']}
-        for crew in data.get('crew', []) if crew.get('job') == 'Director'
-    ]
-    
-    return {'atores': atores, 'diretores': diretores}
-
-# Função para processar todos os filmes e coletar dados de atores e diretores
-def processar_atores_diretores():
+# Função que separa todos os filmes encontrados em arquivos de no máximo 100 filmes e faz o upload para o S3
+def processar_filmes():
     filmes = buscar_filmes()
-    dados_atores_diretores = []
-    
-    for filme in filmes:
-        movie_id = filme['id']
-        creditos = buscar_atores_diretores(movie_id)
-        dados_atores_diretores.append({
-            'filme_id': movie_id,
-            'titulo': filme['title'],
-            'atores': creditos['atores'],
-            'diretores': creditos['diretores']
-        })
-    
-    if dados_atores_diretores:
-        upload_to_s3(dados_atores_diretores, bucket_name, "atores_diretores")
-    else:
-        print("Nenhum dado de atores/diretores encontrado.")
+    if filmes:
+        total_filmes_JSON = 100  # Tamanho de cada arquivo JSON
+        quantidade_arquivos = (len(filmes) + total_filmes_JSON - 1) // total_filmes_JSON  # Quantidade de arquivos a serem gerados
 
-# Invocar a função
-processar_atores_diretores()
+        for i in range(quantidade_arquivos):
+            filmes_do_arquivo = filmes[i * total_filmes_JSON : (i + 1) * total_filmes_JSON]
+            nome_arquivo = f"filmes_guerra_{i + 1}"  # Nome único para cada arquivo
+            upload_to_s3(filmes_do_arquivo, bucket_name, nome_arquivo)
+    else:
+        print("Nenhum filme encontrado ou houve um problema com a API.")
+
+# Invocando a função
+processar_filmes()
