@@ -21,7 +21,7 @@
 
 ###
 📚 Curso **Análise e Desenvolvimento de Sistemas** na **FATEC-Sorocaba**
-- Estou no **3º Semestre**, estudando no **período noturno**
+- Estou no **4º Semestre**, estudando no **período noturno**
  
 ###
 💡 Possuo **Conhecimentos** nas seguintes tecnologias:
