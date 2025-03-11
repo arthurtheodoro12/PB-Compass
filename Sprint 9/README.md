@@ -1,13 +1,5 @@
 <h1 align="center">README Sprint 9</h1>
 
-# Instruções
-
-Este arquivo será o relato da sua entrega. Neste arquivo você fará a organização geral ao longo da Sprint. Esperamos que haja, minimamente:
-
-- Uma ou mais seções para descrever o que estiver aprendendo (resumo), de maneira estruturada.
-
-- Breve conteúdo de cada pasta relacionada a sprint.
-
 # Resumo
 
 Nessa Sprint, revisei e aprimorei meus conhecimentos em análise/modelagem de dados dimensionais, com foco em Apache Spark SQL. Aprofundei minha compreensão sobre a criação de novas tabelas a partir de dados existentes, utilizando as funcionalidades do Spark SQL. Além disso, mantive a prática no AWS Glue, trabalhando tanto com jobs quanto com crawlers para criar novas tabelas e estruturas de dados. Utilizei o Amazon Athena para realizar consultas e validar a confiabilidade dos dados processados, garantindo a qualidade e a integridade das informações.

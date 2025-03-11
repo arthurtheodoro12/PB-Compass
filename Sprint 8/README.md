@@ -1,13 +1,5 @@
 <h1 align="center">README Sprint 8</h1>
 
-# Instruções
-
-Este arquivo será o relato da sua entrega. Neste arquivo você fará a organização geral ao longo da Sprint. Esperamos que haja, minimamente:
-
-- Uma ou mais seções para descrever o que estiver aprendendo (resumo), de maneira estruturada.
-
-- Breve conteúdo de cada pasta relacionada a sprint.
-
 # Resumo
 
 Nessa Sprint, aprofundei meus conhecimentos em Apache Spark (PySpark), explorando suas funcionalidades e aplicabilidades. Além disso, compreendi melhor os Jobs do AWS Glue, compreendendo seu funcionamento, propósito e integração com o Amazon S3. Esse contato me permitiu entender melhor como o AWS Glue facilita o processamento e a transformação de dados em larga escala.
