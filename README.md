@@ -28,7 +28,7 @@
 - Python, Pandas, SQL, Spark (PySpark), Docker, AWS (S3, Lambda, Glue, Athena, QuickSight, IAM), GIT, Linux, HTML, CSS, JavaScript
 
 ###
-💼 A minha **Experiência** na área da tecnologia é:
+💼 A minha **Experiência** na área da tecnologia, além dessa, é:
 - **Desenvolvedor de Software Freelancer – MouraSystem (04/2024 – 10/2024)** 
     - Desenvolvimento de uma plataforma de gestão integrada para clínicas veterinárias utilizando Bubble.io.
         - Responsabilidade e Tarefas:
